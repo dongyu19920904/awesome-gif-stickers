@@ -4,13 +4,16 @@ A focused collection of existing prompts, creator examples and tutorials:
 
 **Reference image → native GIF → WeChat stickers → monetization reading.**
 
-[中文](README.md) · Sources checked on **2026-11-06**. Most tutorials are in Chinese; source prompts retain their original language.
+[中文](README.md) · Original edition checked on **2026-11-06**; X and Skill additions checked on **2026-11-07**. Most tutorials are in Chinese; source prompts retain their original language.
 
 ## Browse
 
 | Collection | What you will find |
 |---|---|
 | [Prompts and examples](docs/prompts.md) | Attributed source prompts, creator results, reference-image requirements and iteration examples |
+| [X tutorials and threads](docs/x-tutorials.md) | Original posts, follow-up replies and concise bilingual reading notes |
+| [Source-material index](docs/x-index.md) | Deduplicated posts with readable original bodies; attribution and route labels |
+| [Ready-made Skills](docs/skills.md) | Original installation guides, requirements and checked native-GIF or frame-assembly routes |
 | [WeChat tutorials](docs/wechat.md) | Adding stickers, GIF processing, store submissions, official rules and review experiences |
 | [Monetization reading](docs/monetization.md) | Voluntary tips, paid packs, custom services and first-person income accounts |
 | [Projects and tools](docs/tools.md) | Existing repositories and tools relevant to this workflow, with implementation distinctions |

@@ -2,7 +2,9 @@
 
 [返回首页](../README.md) · [原词与作者案例](prompts.md)
 
-精选 5 个与“原生 GIF → 微信适配”直接相关的入口或项目。核查日期：2026-11-06。
+需要安装现成工作流时，直接查看[Skills 专区](skills.md)；作者发布与实操说明见[X 原帖目录](x-tutorials.md)。
+
+精选与“原生 GIF → 微信适配”直接相关的入口或项目。原入口核查日期：2026-11-06；X案例库与Skills补充于2026-11-07。
 
 ## 先取得原生 GIF
 
@@ -41,9 +43,11 @@ ChatGPT 订阅与 API 是不同入口。这里不推荐为复现某篇教程而�
 
 ## 为什么没有把这些 Skill 列为原生生成入口
 
+另可参考已有的中英案例仓库 [zhuyansen/awesome-chatgpt-images-2.6](https://github.com/zhuyansen/awesome-chatgpt-images-2.6)及其[浏览页面](https://jasonzhu.ai/en/prompts/chatgpt-images-2-6)。它按原帖、作者、类别和提示词出处组织，未公开原词的作品留空。仓库未检测到通用开放许可，本库只提供链接，不复制其媒体和数据。
+
 两个常见仓库的源码可以帮助辨认路线，但不符合本页的原生生成入口条件：
 
 - **[ray-sticker-shop](https://github.com/imraywang/ray-sticker-shop)**：固定版本 [sticker.py](https://github.com/imraywang/ray-sticker-shop/blob/d274a8831b73a9f41504c66d330ca90119582119/scripts/sticker.py)中的 `_prompt_sheet` 要求 4×4 静态精灵图，随后切片并编码 GIF。README 提及 2.6，不能改变这段代码的实际路径。
 - **[kim-sticker-pack](https://github.com/KimYx0207/Kim_Service/tree/main/skills/kim-sticker-pack)**：固定版本 [finish_frames.py](https://github.com/KimYx0207/Kim_Service/blob/aceed1895f61cc4681cabb41b1afe6911c9d8a58/skills/kim-sticker-pack/scripts/finish_frames.py)接收已有静态 PNG 动作帧，文件开头明确说明不生成运动。它是动作帧收尾工具，不能替代原生图转 GIF。
 
-这两项不计入上方 5 个精选入口。它们的流程、默认阈值和许可都不能替代当前微信官方规范。工具能导出动图、投稿技术检查通过、平台内容审核通过，是不同结果。
+这两项不作为原生生成入口推荐。它们的流程、默认阈值和许可都不能替代当前微信官方规范。工具能导出动图、投稿技术检查通过、平台内容审核通过，是不同结果。

@@ -4,9 +4,9 @@
 
 精选网上已有的提示词、作者案例、教程和相关项目，按制作与发布的顺序整理。中文优先，原词保留来源。[English](README.en.md)
 
-[提示词与案例](docs/prompts.md) · [微信表情教程](docs/wechat.md) · [变现资料](docs/monetization.md) · [相关项目与工具](docs/tools.md)
+[提示词与案例](docs/prompts.md) · [X 教程与帖子](docs/x-tutorials.md) · [现成 Skills](docs/skills.md) · [微信表情教程](docs/wechat.md) · [变现资料](docs/monetization.md) · [相关项目与工具](docs/tools.md)
 
-最近核查：**2026-11-06**。生成部分围绕 **Images 2.6 原生 GIF**；微信处理、投稿与经营经验注明各自适用时间。
+最近更新：**2026-11-07**。各条核查日期见分类页。生成部分围绕 **Images 2.6 原生 GIF**；微信处理、投稿与经营经验注明各自适用时间。
 
 ## 从这里开始
 
@@ -28,6 +28,17 @@
 - **同角色动作扩展**：[UPGPTs，2026-11-06](https://upgpts.com/tutorials/chatgpt/chatgpt-image-2.6-guide)。参考图与成套表情场景；带商业推广，账号额度以官方为准。
 
 原词可直接转载时在分类页按许可收录；其他材料链接作者原文中的提示词位置。作者展示结果与本仓库自行实测分别表述。
+
+## X 原帖与现成 Skills
+
+[按阅读顺序看原帖 →](docs/x-tutorials.md) · [已核正文的素材索引 →](docs/x-index.md) · [选择现成 Skill →](docs/skills.md)
+
+- [路飞：角色参考＋主题槽位的原始提示词](https://x.com/0xluffy_eth/status/2118235547454083357)，以及原作者的后续教程。
+- [麻酱：微信专辑投稿材料长文](https://x.com/zhongying14/status/2118326311030591942)，对照[微信官方规则](docs/wechat.md)阅读。
+- [现成 Skills](docs/skills.md)：按原生 GIF 请求、图集/动作帧合成分类，给出原安装说明、准备条件、源码依据和功能边界。
+- [已有中英提示词案例仓库](https://github.com/zhuyansen/awesome-chatgpt-images-2.6)：保留作者、原帖与提示词出处，按GIF、表情、参考图等分类。
+
+原帖与有独立地址的回复分别归档。待审、作者报告已上架和实际收入分开标明，不以玩法数量或重复转载充当帖子数量。
 
 ## 微信表情教程
 

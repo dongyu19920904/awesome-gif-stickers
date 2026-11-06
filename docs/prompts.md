@@ -2,6 +2,8 @@
 
 [返回首页](../README.md) · [生成与后处理工具](tools.md)
 
+补充入口：[X 原始提示词与教程帖](x-tutorials.md) · [可选现成 Skills](skills.md) · [OpenAI 官方提示指南](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)。
+
 这里收录 **5 条可直接复制的外部模板（中英对照）**，以及 **5 篇附原词位置和结果展示的作者教程**。核查日期：2026-11-06。模板与作者案例分开列出。
 
 先确认所用入口支持 GIF。[OpenAI 的 ChatGPT 帮助](https://help.openai.com/en/articles/11084440-images-in-chatgpt)说明，可以上传静态图并要求动画，GIF 功能仍在逐步推出。需要参考图的原词，应连同自己有权使用的图片一起提交。API 用户以[当前官方指南的 GIF 章节](https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output)为准；不要照搬第三方教程中的旧参数表。
