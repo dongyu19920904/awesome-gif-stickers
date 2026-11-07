@@ -14,6 +14,7 @@
 | [Gorden Sun：吃米饭反应 GIF](https://x.com/Gorden_Sun/status/2118166046175908016) | 一句话指定参考角色、吃米饭动作和“真香”配字，原帖区分参考图与作者展示的结果。 | A short reference-based reaction GIF prompt with Chinese text and a creator example. |
 | [Fred：单张 GIF 与整套 Skill](https://x.com/Frederickkk07/status/2118546394797728093) | 有单张直接 GIF 原词，并指向整套 Skill、微信材料和经营来源；单张生成与 Skill 合成是两条不同路线。 | Direct-GIF examples alongside a separate pack-building Skill and submission reading. |
 | [零点 Drift：橘猫打工的一天](https://x.com/karanwithai/status/2118190621886165099) | 12张专辑的制作和提交自述：保留角色参考，每次修改动作。此帖为待审，“评论区原词”未完整读到，不补写。 | A creator reports preparing and submitting a 12-GIF pack; this post does not establish approval. |
+| [零点 Drift：两套专辑提审续篇](https://x.com/karanwithai/status/2118635187714343181) | 作者报告橘猫和水豚两套已上架，给出微信搜索名称、物料清单和文末原词。微信端上架和收益尚未独立核实。 | The author reports two listings and shares the submission checklist and prompt. Store status and earnings remain unverified. |
 | [麻酱：猫咪 GIF 投稿长文](https://x.com/zhongying14/status/2118326311030591942) | 重点读专辑材料、含义词、艺术家资料和赞赏配图。作者选8个表情提交；本文不是整套生成提示词库。 | A detailed account of preparing album, creator and optional tipping materials. |
 | [杰哥：五步投稿教程](https://x.com/jev_chat/status/2118511250275704964) | 包含直接 GIF 示例、压缩和投稿指引，但作者自己的8张成品用四宫格切片、抠底再合成。 | Direct-GIF guidance and submission notes; the author's own pack uses assembled frames. |
 | [杰哥：独立后续回复](https://x.com/jev_chat/status/2118568297243558160) | 作者随后自述已上架，可与前文待审状态对照；尚无本库核到的商店直链或收入。 | An independently linked follow-up reports approval; store listing and income are not verified here. |
@@ -64,6 +65,16 @@
 | [HeartlessCat：参考图与极短动作词](https://x.com/dokken92047824/status/2118293666456559762) | 作者附图后只指定男性弹木吉他，展示这种极简输入的结果；可对照参考图和动作描述的作用，不是完整专辑教程。 | A reference image and a minimal guitar-playing instruction, presented as a creator test. |
 | [seosoyoung：Flare 参考图 GIF 实测](https://x.com/seosoyoung_ai/status/2118142838198169750) | 作者报告一张Q版参考图、一次调用，约14秒返回6帧GIF，并反馈转得过快。耗时和帧数是该次记录；文中对当时文档的转述不能代替当前官方能力说明。 | A reported reference-image Flare test returning six frames, including feedback that the rotation was too fast. |
 | [vastxie：两套微信动态表情的四步流程](https://x.com/vastxie/status/2118265895613346263) | 锚点图、批量动作、深色背景去白边与配套图整理；原帖给出调用设置与避坑短提示。约4美元赠金额消耗是作者报告，未证明审核或盈利；[微信页导读](wechat.md#10--弎弎水锚点图两套动态表情与深色背景处理)。 | An anchor-image workflow and WeChat display fixes, with reported credit use rather than verified earnings. |
+
+## 原词与排错的后续回复
+
+| 原作者与原帖 | 中文导读 | English summary |
+|---|---|---|
+| [弎弎水：藏狐原词和去白边代码](https://x.com/vastxie/status/2118586752915095805) | 参考图固定角色，动作和文案留槽位，另附深色背景下处理透明边缘的示例。 | A reference-character template and a Pillow example for transparent edges on dark backgrounds. |
+| [AXIS 实验室：两套原生 GIF 试验](https://x.com/AXIS95277/status/2118320290065154405) | 从角色设定到逐帧检查的作者记录，包含字幕写错和循环跳帧的处理。 | A creator's two-pack native GIF trial, including caption and loop fixes. |
+| [AXIS 实验室：已有表情图转 GIF](https://x.com/AXIS95277/status/2118264145824944558) | 作者记录九张现有表情图转 GIF 的 API 试验，另附独立动作原词。 | A creator's API trial animating nine existing sticker images, with separate motion prompts. |
+| [zrqgood9068：短循环的动作与速度](https://x.com/zrqgood9068/status/2118215257399148922) | 将动作拆为三个阶段，选择背景干净的正面参考图，再按输出节奏调整播放速度。 | A creator suggests specifying three motion beats, starting from a clean reference and tuning playback speed. |
+| [rei_aitech：苹果下落的三组参数对照](https://x.com/rei_aitech/status/2118245102409908571) | 作者比较帧数和帧时长的三组请求，适合观察动作节奏。具体数值属于单次试验。 | A creator compares three frame-count and timing requests for a falling-apple GIF. |
 
 ## 官方对照与相关资料库
 

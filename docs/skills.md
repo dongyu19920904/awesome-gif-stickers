@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [生成入口与工具](tools.md) · [微信制作与投稿](wechat.md)
 
-收录 **10 个 Skill、9 个项目入口**：5 个原生 GIF 请求入口（6 个 Skill），4 个静态素材合成与交付入口。此次新增 Sogni 1 个 Skill，以及 Frevana 的 Flare、Sunburst 2 个 Skill；后两者共用一个项目入口。核查日期：2026-11-07。链接指向原仓库的固定版本安装说明、Skill 和代码；本库没有安装、运行或做安装安全审查，也没有调用付费服务。
+收录 **11 个 Skill、10 个项目入口**，包括 5 个原生 GIF 请求入口（6 个 Skill）、4 个素材合成与交付入口、1 个依赖宿主的聊天表情工作流。核查日期为 2026-11-07。链接指向固定版本的安装说明、Skill 和代码。本库核查了文档和源码，安装与运行效果尚待使用者按自己的环境验证。
 
 ## 原生 GIF 请求型 Skills
 
@@ -70,6 +70,10 @@
 | **[kim-sticker-pack / 老金](https://github.com/KimYx0207/Kim_Service/blob/aceed1895f61cc4681cabb41b1afe6911c9d8a58/skills/kim-sticker-pack/README.md)** | 角色与样片确认、动作素材整理、中文文字设计、GIF 收尾与交付验收 | 宿主需具备相应生图/播放能力；本地收尾用 Python 3.10+、Pillow、fontTools 和字体。[Skill](https://github.com/KimYx0207/Kim_Service/blob/aceed1895f61cc4681cabb41b1afe6911c9d8a58/skills/kim-sticker-pack/SKILL.md)要求先有真实连续动作帧；[finish_frames.py](https://github.com/KimYx0207/Kim_Service/blob/aceed1895f61cc4681cabb41b1afe6911c9d8a58/skills/kim-sticker-pack/scripts/finish_frames.py)只接收静态 PNG 帧，明确不生成运动。不是完整自动生成或投稿系统 | Skill 目录内 [MIT](https://github.com/KimYx0207/Kim_Service/blob/aceed1895f61cc4681cabb41b1afe6911c9d8a58/skills/kim-sticker-pack/LICENSE) |
 
 ## 从 X 教程找到的原项目
+
+### 半格 · wechat-sticker-pack
+
+默认交付 9 个独立循环 GIF 和一份动态九宫格总览。Skill 依赖宿主的图像与动图工具，可按宿主能力直接生成或从连续关键帧制作。微信投稿规格处理和提交需另行完成。仓库含 Skill 与分类菜单，采用 MIT 许可。 [安装说明](https://github.com/ban-ge/wechat-sticker-pack/blob/29656dae1d8024312a5f26bbbe3c8b8d1472613f/README.md) · [Skill](https://github.com/ban-ge/wechat-sticker-pack/blob/29656dae1d8024312a5f26bbbe3c8b8d1472613f/SKILL.md) · [许可](https://github.com/ban-ge/wechat-sticker-pack/blob/29656dae1d8024312a5f26bbbe3c8b8d1472613f/LICENSE) · [作者发布帖](https://x.com/ai_bange/status/2118740802545574019)
 
 - [Levi 卧云原帖](https://x.com/Leviwoyun/status/2118197971112366538)关联 `WoYun520/pixel-gif-sticker-pack`。原帖展示与开源说明可以核对；“拿去上架”不等于已成交或已审核。
 - [往事随风原帖](https://x.com/bywind_art/status/2118633386445066345)明确指向 `ray-sticker-shop`，补充了 ChatGPT 网页端上传 Skill 文档的用法。这是作者使用报告，不是本库重现实验。

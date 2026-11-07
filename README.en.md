@@ -13,14 +13,14 @@ A focused collection of existing prompts, creator examples and tutorials:
 | [Prompts and examples](docs/prompts.md) | Attributed source prompts, creator results, reference-image requirements and iteration examples |
 | [X tutorials and threads](docs/x-tutorials.md) | Original posts, follow-up replies and concise bilingual reading notes |
 | [Source-material index](docs/x-index.md) | Deduplicated posts with readable original bodies; attribution and route labels |
-| [Ready-made Skills](docs/skills.md) | 10 Skills across nine entries, with original installation guides, requirements and native-GIF or frame-assembly routes |
+| [Ready-made Skills](docs/skills.md) | 11 Skills across ten entries, with installation guides and requirements for native GIFs, frame assembly, and host-based workflows |
 | [WeChat tutorials](docs/wechat.md) | Adding stickers, GIF processing, store submissions, official rules and review experiences |
 | [Monetization reading](docs/monetization.md) | Voluntary tips, paid packs, custom services and first-person income accounts |
 | [Projects and tools](docs/tools.md) | Existing repositories and tools relevant to this workflow, with implementation distinctions |
 
 ## Start reading
 
-The [prompt collection](docs/prompts.md) includes five bilingual licensed templates, 41 linked GIF prompts from an attributed library, and 24 prompt links verified against their creators' original posts in Chinese, Japanese and English. Source prompts, creator demonstrations and editorial notes remain distinct.
+The [prompt collection](docs/prompts.md) includes five bilingual licensed templates, 41 links from an attributed GIF prompt library, 24 source prompts verified from a GIF case directory, and additional original prompts found in author timelines and replies. Source prompts, creator demonstrations and editorial notes are identified separately.
 
 1. [OpenAI: Images in ChatGPT](https://help.openai.com/en/articles/11084440-images-in-chatgpt) — see “Create and edit a GIF”.
 2. [Greta Tsai's November 5 tutorial](https://gretatsai.com/chatgpt-images-2-6-gif/) — original prompts, photo examples and revisions.
