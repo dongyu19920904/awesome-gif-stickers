@@ -60,6 +60,9 @@
 | [Superboy：帧数、时长与回位](https://x.com/Superboy4949/status/2118785150368743814) | 报告每帧120ms时，8帧为0.96秒、16帧为1.92秒；建议结合帧时长调整循环长度，并在提示词中安排动作回到起始姿势。 | A duration example at 120ms per frame, with advice to return the action to its starting pose. |
 | [Felnart：先让模型提议场景](https://x.com/felnartstories/status/2118758557537710141) | 原帖有场景提议指令和魔法循环结果，并明确记录手臂、长矛晃动的问题；可参考动作约束与失败表现。 | A scene-ideation request and magical-loop example, including reported arm and spear artifacts. |
 | [1stLight：较长生成的失真反馈](https://x.com/1stLight_Ai/status/2118784492227965350) | 作者报告较长的GIF生成出现崩坏，提出下一次尝试参考照片；后者尚属计划，不当作已经验证的修复办法。 | A reported failure with longer GIF generations; a reference-photo retry is proposed, not demonstrated. |
+| [Hemi：两头身角色跳舞、转身与循环](https://x.com/Hemi3AI/status/2118450538966823011) | 原帖给出先改为两头身、再跳舞转一圈并循环的短指令，指出模型对“转一圈”的理解偏离预期。角色属于原作者示例，不能据此取得其商业授权。 | Short character-motion instructions, with a reported mismatch in the interpretation of one full turn. |
+| [HeartlessCat：参考图与极短动作词](https://x.com/dokken92047824/status/2118293666456559762) | 作者附图后只指定男性弹木吉他，展示这种极简输入的结果；可对照参考图和动作描述的作用，不是完整专辑教程。 | A reference image and a minimal guitar-playing instruction, presented as a creator test. |
+| [seosoyoung：Flare 参考图 GIF 实测](https://x.com/seosoyoung_ai/status/2118142838198169750) | 作者报告一张Q版参考图、一次调用，约14秒返回6帧GIF，并反馈转得过快。耗时和帧数是该次记录；文中对当时文档的转述不能代替当前官方能力说明。 | A reported reference-image Flare test returning six frames, including feedback that the rotation was too fast. |
 
 ## 官方对照与相关资料库
 
