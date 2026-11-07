@@ -50,6 +50,17 @@
 | [SUOHA：定制与赞赏](https://x.com/SUOHA_AI/status/2118564255867777123) · [平台与授权回复](https://x.com/SUOHA_AI/status/2118564264491287014) | 比较两种经营路径，补官方入口和原创/肖像授权提醒；没有可核实订单 |
 | [gbroai：Codex原生GIF拼贴B-roll](https://x.com/gbroai/status/2118589683819262346) | 参考静帧、原生GIF、导出MP4的完整创作文章；作者当时公开的Skill仍是旧视频模型版 |
 
+## 新增实测与排错 / More tests and troubleshooting
+
+以下原帖核读于 2026-11-07。数值与结果属于作者当次记录，未在本库复现。
+
+| 原作者与原帖 | 中文导读 | English summary |
+|---|---|---|
+| [r360studio：角色 GIF 演示](https://x.com/r360studio/status/2118843579712123227) | 作者附从输入到生成完成的视频讲解，报告角色与尾巴循环保持、307×307像素、16帧及约8.3fps。可看输入操作和结果；这组尺寸不等于微信投稿规格。 | A narrated character-GIF demonstration; the creator reports dimensions, frame count and loop behavior. |
+| [Superboy：帧数、时长与回位](https://x.com/Superboy4949/status/2118785150368743814) | 报告每帧120ms时，8帧为0.96秒、16帧为1.92秒；建议结合帧时长调整循环长度，并在提示词中安排动作回到起始姿势。 | A duration example at 120ms per frame, with advice to return the action to its starting pose. |
+| [Felnart：先让模型提议场景](https://x.com/felnartstories/status/2118758557537710141) | 原帖有场景提议指令和魔法循环结果，并明确记录手臂、长矛晃动的问题；可参考动作约束与失败表现。 | A scene-ideation request and magical-loop example, including reported arm and spear artifacts. |
+| [1stLight：较长生成的失真反馈](https://x.com/1stLight_Ai/status/2118784492227965350) | 作者报告较长的GIF生成出现崩坏，提出下一次尝试参考照片；后者尚属计划，不当作已经验证的修复办法。 | A reported failure with longer GIF generations; a reference-photo retry is proposed, not demonstrated. |
+
 ## 官方对照与相关资料库
 
 - [OpenAI Image prompting](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)：官方循环GIF样例，说明起始姿态、回位动作和镜头约束。API参数另看[生成指南](https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output)。

@@ -2,12 +2,16 @@
 
 [返回首页](../README.md) · [精选教程导读](x-tutorials.md) · [现成 Skills](skills.md)
 
-本页共 **85 个去重 status ID**，原帖正文或可定址的作者回复已读；标题为简要索引，完整原词与步骤请看原文。核查日期：2026-11-07。
+本页共 **89 个去重 status ID**，原帖正文或可定址的作者回复已读；标题为简要索引，完整原词与步骤请看原文。核查日期：2026-11-07。
 
 这是原文材料目录，不表示本库复现了作品、验证了上架或收入。图集/关键帧合成和模型原生GIF分别标明；未核清路线的标为“见原文”。
 
 | 作者与原帖 | 内容入口 | 路线（按原文请求或代码） |
 |---|---|---|
+| [@r360studio](https://x.com/r360studio/status/2118843579712123227) | 2.6角色循环GIF实测：307方图、16帧约8.3fps；作者另附从输入到完成的解说录像。 | 原生请求 |
+| [@Superboy4949](https://x.com/Superboy4949/status/2118785150368743814) | 8帧0.96秒、16帧1.92秒；2至3秒循环需更多帧或放慢单帧，并让动作回起始姿势。 | 原生请求 |
+| [@1stLight_Ai](https://x.com/1stLight_Ai/status/2118784492227965350) | 作者观察2.6 GIF在较长生成中结构崩坏，未给具体时长阈值。 | 原生请求 |
+| [@felnartstories](https://x.com/felnartstories/status/2118758557537710141) | 让模型提议魔法穿越静止空间的GIF，结果手臂长矛晃动，头发斗篷也被动画化。 | 见原文 |
 | [@cheerselflin](https://x.com/cheerselflin/status/2118671118345310606) | Evolink提示词与API资料入口 | 见原文 |
 | [@bywind_art](https://x.com/bywind_art/status/2118633386445066345) | ray-sticker-shop使用报告与文档上传方式 | 合成 |
 | [@zhongying14](https://x.com/zhongying14/status/2118621472847532215) | 麻酱AI实验室：投稿与赞赏材料要点及前文导读 | 见原文 |

@@ -4,7 +4,7 @@
 
 补充入口：[X 原始提示词与教程帖](x-tutorials.md) · [可选现成 Skills](skills.md) · [OpenAI 官方提示指南](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)。
 
-这里收录 **5 条可直接复制的外部模板（中英对照）**，以及 **5 篇附原词位置和结果展示的作者教程**。核查日期：2026-11-06。模板与作者案例分开列出。
+这里收录 **5 条可直接复制的外部模板（中英对照）**、**6 篇附原词位置和结果展示的作者教程**，另有 **41 条带示例的外部原提示目录**。核查日期：2026-11-07。
 
 先确认所用入口支持 GIF。[OpenAI 的 ChatGPT 帮助](https://help.openai.com/en/articles/11084440-images-in-chatgpt)说明，可以上传静态图并要求动画，GIF 功能仍在逐步推出。需要参考图的原词，应连同自己有权使用的图片一起提交。API 用户以[当前官方指南的 GIF 章节](https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output)为准；不要照搬第三方教程中的旧参数表。
 
@@ -129,6 +129,81 @@ Turn the attached hand-drawn sketch into an animated character GIF: keep the ske
 **入口与原词：**供应商 Lightlyn Images，选择 GPT Image 2.6 后在 Advanced 中选 GIF。查找「Describe the motion, get a loop」下的「Prompts」，有猫咪挥手、耳机盒开合、咖啡照片蒸汽三条英文原词，以及对应结果；照片案例须附参考照片。
 
 **值得看：**三种主体都聚焦小动作，便于对照哪些细节保持不动。作者展示的是自有平台结果，九帧、耗时与界面选项不能推广为所有入口的统一规则。页面含产品推广；本项目未验证其服务或扣费。
+
+### 6. 生成后保持动作改表情：npaka 的三段上手原词
+
+[阅读原文：GPT-Image-2.6の概要 - ChatGPTがアニメーションGIF生成に対応](https://note.com/npaka/n/n7e86091b23c3) — npaka / 布留川英一，2026-11-05。
+
+**入口与原词：**第 2 章「クイックスタート」的 2-1 是文字生成跳舞猫 GIF；2-2 是上传角色图、保留角色和背景后生成 GIF；2-3 是给已生成 GIF 追加指令，保持同一动作改成笑脸。三段日文原词均在原页，另嵌四条作者 X 结果入口。
+
+**值得看：**能顺着同一流程比较文字生成、角色参考与后续修改。本库未下载嵌入媒体复现；文中的提速表述存在过时之处，API 参数与价格请查当前官方指南。
+
+## 来源跳转：41 条带示例的 GIF 原提示
+
+来源：[ailingqu / Awesome AI GIF Prompts](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/README.md)，固定版本 `2672b8fe04e75275de70a8d5d2992da6271ce8f5`（2026-11-06）；[CC BY 4.0](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/LICENSE)。本表由该版 `data/prompts.json` 的 41 个唯一条目整理，英文标题与中文标题均沿用来源，中文列是来源作者的译名；完整英文原词与提示中的循环后缀请到原页读取。
+
+作者说明这些提示词由网上思路改写并生成测试，仓库附对应 GIF；这是来源作者的报告，本库未运行请求或逐个解码媒体。下表是一个仓库的 41 条提示，不是 41 条 X 帖子。生成示例使用第三方服务，接口参数和素材规格以实际入口为准。
+
+### 表情包与贴纸 GIF（15 条）
+
+| 编号 | 原文标题 | 来源中文标题 | 原提示入口 |
+| --- | --- | --- | --- |
+| 1 | Jelly bear wobble | Q 弹果冻熊摇晃 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L27) |
+| 2 | Bunny thumbs-up | 兔兔点赞 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L41) |
+| 3 | Bunny laughing to tears | 兔兔笑出眼泪 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L55) |
+| 4 | Sleepy bunny | 兔兔犯困 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L67) |
+| 5 | Cartoon cat waving hello | 卡通猫挥手打招呼 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L79) |
+| 6 | Confused shiba head tilt | 柴犬歪头疑惑 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L93) |
+| 7 | Cat typing furiously | 猫猫疯狂打字 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L105) |
+| 8 | Frog blowing a heart | 青蛙吹出爱心 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L119) |
+| 9 | Penguin facepalm | 企鹅捂脸 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L131) |
+| 10 | Basketball shot celebration | 投篮命中庆祝 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L143) |
+| 11 | Cat chef tossing fried rice | 猫厨师颠勺炒饭 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L157) |
+| 12 | Black cat punch | 黑猫出拳 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L169) |
+| 13 | Office cat: exhausted | 打工猫：累瘫 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L181) |
+| 14 | Office cat: clocking out | 打工猫：下班啦 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L195) |
+| 15 | Roaring duck | 咆哮的小黄鸭 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L207) |
+
+### 快闪与品牌动效 GIF（5 条）
+
+| 编号 | 原文标题 | 来源中文标题 | 原提示入口 |
+| --- | --- | --- | --- |
+| 16 | Flower macro flash cut | 花卉微距快闪 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L219) |
+| 17 | Cat-head logo brand reel | 猫头 Logo 品牌快闪 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L233) |
+| 18 | Sneaker colorway flash | 球鞋配色快闪 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L247) |
+| 19 | One tree, four seasons | 一棵树的四季 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L261) |
+| 20 | Magazine collage panels pop in | 杂志拼贴逐格弹出 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L273) |
+
+### 氛围循环 GIF（12 条）
+
+| 编号 | 原文标题 | 来源中文标题 | 原提示入口 |
+| --- | --- | --- | --- |
+| 21 | Reading by the window, day to night | 窗边读书·白天到夜晚 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L287) |
+| 22 | Steaming coffee loop | 冒热气的咖啡 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L301) |
+| 23 | Rainy window and plant | 雨窗与绿植 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L313) |
+| 24 | Goldfish in a bowl | 鱼缸里的金鱼 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L325) |
+| 25 | Lighthouse at night | 夜晚的灯塔 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L337) |
+| 26 | Cat sleeping by the fireplace | 壁炉边睡觉的猫 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L349) |
+| 27 | Lantern monkey in the snow | 雪林提灯的小猴子 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L363) |
+| 28 | Sleepy fox on a mossy rock | 苔石上打盹的小狐狸 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L377) |
+| 29 | Lo-fi study loop | Lo-fi 学习循环 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L389) |
+| 30 | Café cinemagraph | 街角咖啡馆动态照片 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L401) |
+| 31 | Ink-wash galloping horse | 水墨奔马 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L415) |
+| 32 | Doodle monster comes alive | 涂鸦小怪兽活了 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L427) |
+
+### 像素风与界面动效 GIF（9 条）
+
+| 编号 | 原文标题 | 来源中文标题 | 原提示入口 |
+| --- | --- | --- | --- |
+| 33 | Pixel art campfire | 像素风篝火 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L439) |
+| 34 | Bouncing dots loader | 弹跳圆点加载动画 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L451) |
+| 35 | Pixel knight run cycle | 像素骑士跑步循环 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L465) |
+| 36 | Like button heart burst | 点赞爱心爆开 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L479) |
+| 37 | Hourglass loading | 沙漏加载 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L491) |
+| 38 | Arcade VS screen | 街机对战 VS 画面 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L503) |
+| 39 | 8-bit slime boss battle | 8-bit 史莱姆 Boss 战 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L517) |
+| 40 | Love-burst skill animation | 爱心爆发技能动画 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L529) |
+| 41 | Junkyard robot walk cycle | 废品场机器人行走 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L541) |
 
 ## 从提示词继续到微信
 

@@ -23,6 +23,8 @@
 
 [进入提示词目录 →](docs/prompts.md)
 
+目录包含 **5条双语开放许可模板**，以及新增开源库中的 **41条GIF提示词入口**：聊天贴纸、循环动作、快闪、像素/UI。按来源编号跳转原词与作者示例，保留版本和许可说明。
+
 - **照片生成 GIF、迭代与下载**：[蔡明淳，2026-11-05](https://gretatsai.com/chatgpt-images-2-6-gif/)。有原始提示词、作者展示结果和失败修改。
 - **参考图、改台词与速度**：[程序员鱼皮，2026-11-05](https://cloud.tencent.com.cn/developer/article/2777024)。包含角色与细节漂移的具体例子。
 - **同角色动作扩展**：[UPGPTs，2026-11-06](https://upgpts.com/tutorials/chatgpt/chatgpt-image-2.6-guide)。参考图与成套表情场景；带商业推广，账号额度以官方为准。
@@ -35,7 +37,7 @@
 
 - [路飞：角色参考＋主题槽位的原始提示词](https://x.com/0xluffy_eth/status/2118235547454083357)，以及原作者的后续教程。
 - [麻酱：微信专辑投稿材料长文](https://x.com/zhongying14/status/2118326311030591942)，对照[微信官方规则](docs/wechat.md)阅读。
-- [现成 Skills](docs/skills.md)：按原生 GIF 请求、图集/动作帧合成分类，给出原安装说明、准备条件、源码依据和功能边界。
+- [现成 Skills](docs/skills.md)：10个Skill、9个项目入口；按原生 GIF 请求、图集/动作帧合成分类，附原安装说明、依赖和源码依据。
 - [已有中英提示词案例仓库](https://github.com/zhuyansen/awesome-chatgpt-images-2.6)：保留作者、原帖与提示词出处，按GIF、表情、参考图等分类。
 
 原帖与有独立地址的回复分别归档。待审、作者报告已上架和实际收入分开标明，不以玩法数量或重复转载充当帖子数量。

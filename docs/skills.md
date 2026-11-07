@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [生成入口与工具](tools.md) · [微信制作与投稿](wechat.md)
 
-收录 **7 项 Skill：3 项原生 GIF 请求指南，4 项静态素材合成与交付工具**。核查日期：2026-11-07。链接指向原仓库的固定版本安装说明、Skill 和代码；本库没有安装、运行或做安装安全审查，也没有调用付费服务。
+收录 **10 个 Skill、9 个项目入口**：5 个原生 GIF 请求入口（6 个 Skill），4 个静态素材合成与交付入口。此次新增 Sogni 1 个 Skill，以及 Frevana 的 Flare、Sunburst 2 个 Skill；后两者共用一个项目入口。核查日期：2026-11-07。链接指向原仓库的固定版本安装说明、Skill 和代码；本库没有安装、运行或做安装安全审查，也没有调用付费服务。
 
 ## 原生 GIF 请求型 Skills
 
@@ -37,6 +37,26 @@
 - **核到哪一步：** 官方 Skill 的命令示例明确使用 `higgsfield generate create gpt_image_2_6` 与 `--output_format gif`，还列有帧数、帧时长和尺寸参数。这里核对的是命令示例；[CLI 公开仓库的所核版本](https://github.com/higgsfield-ai/cli/tree/fd21e7cb550b5835cc00c6b4abfea0c02fe77ff2)只有文档、许可和安装入口，不能据此称已审计 CLI 内部或生成服务。
 - **到哪里结束：** 等待任务并交付生成结果链接；未发现本 Skill 的微信专辑适配、投稿或自动提交实现。
 - **许可：** Skill 为 [MIT](https://github.com/higgsfield-ai/skills/blob/27000402070db19d958789d05b3b52b6f4718d7c/LICENSE)；服务使用和素材权利另按实际条款处理。
+
+### 4. Sogni Creative Agent：已有 Sogni 生成环境时使用
+
+[原安装说明](https://github.com/Sogni-AI/sogni-creative-agent-skill/blob/864b74113b96a4dd18dbd3eb0125ba3e299820c2/README.md) · [完整 Skill](https://github.com/Sogni-AI/sogni-creative-agent-skill/blob/864b74113b96a4dd18dbd3eb0125ba3e299820c2/SKILL.md) · [GIF 模型说明](https://github.com/Sogni-AI/sogni-creative-agent-skill/blob/864b74113b96a4dd18dbd3eb0125ba3e299820c2/references/models.md)
+
+- **适合什么：** 通过 Sogni 的 CLI 请求 Image 2.6 GIF，并明确帧数和节奏。它是综合创作 Skill，没有专门的微信投稿流程。
+- **需要准备：** Node.js ≥22.11.0、Sogni API Key 及可用服务额度。支持 Windows、macOS、Linux；本地转码等附加功能另需 FFmpeg/ffprobe。服务生成会消耗账户用量。
+- **核到哪一步：** 固定版本 `864b74113b96a4dd18dbd3eb0125ba3e299820c2` 的模型说明明确使用 `gpt-image-2.6-flare` / `gpt-image-2.6-sunburst` 和 `--output-format gif`，并列出 `--image-frame-count`、`--image-frame-duration-ms`。这些是 **Sogni CLI 的封装选项**，不代表 OpenAI 或其他服务的参数、默认值与范围；没有发起生成请求。
+- **到哪里结束：** GIF 请求与文件交付。仓库中的 Loop Maker 使用 LTX 等视频路线，是另一项工作流；不要把它与本条 GIF 请求混用计数。
+- **许可：** [MIT](https://github.com/Sogni-AI/sogni-creative-agent-skill/blob/864b74113b96a4dd18dbd3eb0125ba3e299820c2/LICENSE)；服务条款和参考素材权利另核。
+
+### 5. Frevana Flare / Sunburst：两个独立的 GIF 请求 Skill
+
+[原仓库说明](https://github.com/FinpeakInc/frevana-skills/blob/7952e54fe1ec45e571898ee77b83612054159bbd/README.md) · [Flare Skill](https://github.com/FinpeakInc/frevana-skills/blob/7952e54fe1ec45e571898ee77b83612054159bbd/skills/gpt-image-2-6-flare/SKILL.md) · [Sunburst Skill](https://github.com/FinpeakInc/frevana-skills/blob/7952e54fe1ec45e571898ee77b83612054159bbd/skills/gpt-image-2-6-sunburst/SKILL.md)
+
+- **适合什么：** 已使用 Frevana 的用户选择固定的 Flare 或 Sunburst 请求入口。不是微信专用表情包工具。
+- **需要准备：** Bash、curl、Python 3、`FREVANA_TOKEN`，以及服务端的模型支持和可用额度。Windows 需要兼容的 Bash 环境；生成会使用第三方服务账户。
+- **核到哪一步：** 固定版本 `7952e54fe1ec45e571898ee77b83612054159bbd` 的两个 Skill 和[Flare 请求脚本](https://github.com/FinpeakInc/frevana-skills/blob/7952e54fe1ec45e571898ee77b83612054159bbd/skills/gpt-image-2-6-flare/scripts/generate_image.sh)明确经 **Frevana 的 `/openai/image/generate`** 发送 `gif` 输出请求。文档要求 GIF 使用 `size auto` 等兼容设置，并保留原始错误。当前封装的 GIF 分支仅文生，不接受参考图、mask 或透明背景；这不代表其他入口的能力限制。
+- **到哪里结束：** 返回 JSON 和托管 GIF 链接；没有微信配套素材、投稿或自动上架。文档的生产日志配置是作者报告，本库未验证服务部署、实际扣费或 GIF 文件。
+- **许可：** 固定版本的递归文件树未找到 LICENSE，GitHub API 也未识别开放许可。这里只提供原文链接，不按 MIT 或本库许可复制其代码。
 
 ## 静态素材合成、收尾与交付 Skills
 

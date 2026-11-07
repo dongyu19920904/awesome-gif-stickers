@@ -1,7 +1,64 @@
 {
   "checked_on": "2026-11-07",
-  "count": 85,
+  "count": 89,
   "records": [
+    {
+      "id": "2118843579712123227",
+      "url": "https://x.com/r360studio/status/2118843579712123227",
+      "author": "r360studio",
+      "title": "2.6角色循环GIF实测：307方图、16帧约8.3fps；作者另附从输入到完成的解说录像。",
+      "topics": [
+        "角色GIF",
+        "帧数",
+        "分辨率",
+        "实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "DOM详情全文已补齐，给出307×307、16帧约8.3fps及角色尾巴循环的具体实测"
+    },
+    {
+      "id": "2118785150368743814",
+      "url": "https://x.com/Superboy4949/status/2118785150368743814",
+      "author": "Superboy4949",
+      "title": "8帧0.96秒、16帧1.92秒；2至3秒循环需更多帧或放慢单帧，并让动作回起始姿势。",
+      "topics": [
+        "原生GIF",
+        "帧时长",
+        "循环提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供8/16帧各120ms的时长实测，并给循环动作回起点建议"
+    },
+    {
+      "id": "2118784492227965350",
+      "url": "https://x.com/1stLight_Ai/status/2118784492227965350",
+      "author": "1stLight_Ai",
+      "title": "作者观察2.6 GIF在较长生成中结构崩坏，未给具体时长阈值。",
+      "topics": [
+        "原生GIF",
+        "使用限制",
+        "失败实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确报告较长生成易崩坏；参考照片只是下次计划，未冒充修复"
+    },
+    {
+      "id": "2118758557537710141",
+      "url": "https://x.com/felnartstories/status/2118758557537710141",
+      "author": "felnartstories",
+      "title": "让模型提议魔法穿越静止空间的GIF，结果手臂长矛晃动，头发斗篷也被动画化。",
+      "topics": [
+        "GIF动作设计",
+        "提示词迭代",
+        "失败实测"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Conversation核到完整目标正文，有场景提议及手臂长矛晃动结果；涉及Astra，底层生成路线未说明"
+    },
     {
       "id": "2118671118345310606",
       "url": "https://x.com/cheerselflin/status/2118671118345310606",

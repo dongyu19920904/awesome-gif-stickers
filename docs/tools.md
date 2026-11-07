@@ -41,7 +41,13 @@ ChatGPT 订阅与 API 是不同入口。这里不推荐为复现某篇教程而�
 
 仓库含 MuAPI 商业导流。所核 README 的“GIF 仅支持 generations”和“2–64 帧”与当前[官方 GIF 指南](https://developers.openai.com/api/docs/guides/image-generation#generate-animated-gif-output)不一致；本库只摘录提示词，不沿用它的 API 参数表。
 
-## 为什么没有把这些 Skill 列为原生生成入口
+### Awesome AI GIF Prompts
+
+[ailingqu 的仓库](https://github.com/ailingqu/awesome-ai-gif-prompts) · [41 条分类原词入口](prompts.md#来源跳转41-条带示例的-gif-原提示)
+
+固定版本 `2672b8fe04e75275de70a8d5d2992da6271ce8f5` 收录聊天贴纸、快闪、氛围循环与像素/UI四类，附英文原词、来源中文标题和作者生成的示例。采用 CC BY 4.0；本库整理目录并链接原文，没有逐项运行或复现。生成脚本使用第三方服务，代码配置不作为所有 Image 2.6 入口的通用设置。
+
+## 其他资料库与 Skill 路线
 
 另可参考已有的中英案例仓库 [zhuyansen/awesome-chatgpt-images-2.6](https://github.com/zhuyansen/awesome-chatgpt-images-2.6)及其[浏览页面](https://jasonzhu.ai/en/prompts/chatgpt-images-2-6)。它按原帖、作者、类别和提示词出处组织，未公开原词的作品留空。仓库未检测到通用开放许可，本库只提供链接，不复制其媒体和数据。
 
