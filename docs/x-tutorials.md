@@ -10,7 +10,7 @@
 
 | 原作者与原帖 | 中文导读 | English summary |
 |---|---|---|
-| [路飞：角色参考＋主题槽位](https://x.com/0xluffy_eth/status/2118235547454083357) | 直接请求 GIF 的原词：角色一致、自动动作、短句、白底与循环；相关对话提出母图→换主题→投稿的路线。原词在这一条，未把评论上下文重复计数。 | A reference-image GIF prompt with a theme slot; the thread outlines a submission route. |
+| [路飞：角色参考＋主题槽位](https://x.com/0xluffy_eth/status/2118235547454083357) | 直接请求GIF的原词；另已补核[三步路线](https://x.com/0xluffy_eth/status/2118235549609955443)和[投稿规范入口回复](https://x.com/0xluffy_eth/status/2118235551631610085)的独立地址。原词、流程与规范按原帖分别定位。 | A reference-image GIF prompt, with independently linked workflow and submission-reference replies. |
 | [Gorden Sun：吃米饭反应 GIF](https://x.com/Gorden_Sun/status/2118166046175908016) | 一句话指定参考角色、吃米饭动作和“真香”配字，原帖区分参考图与作者展示的结果。 | A short reference-based reaction GIF prompt with Chinese text and a creator example. |
 | [Fred：单张 GIF 与整套 Skill](https://x.com/Frederickkk07/status/2118546394797728093) | 有单张直接 GIF 原词，并指向整套 Skill、微信材料和经营来源；单张生成与 Skill 合成是两条不同路线。 | Direct-GIF examples alongside a separate pack-building Skill and submission reading. |
 | [零点 Drift：橘猫打工的一天](https://x.com/karanwithai/status/2118190621886165099) | 12张专辑的制作和提交自述：保留角色参考，每次修改动作。此帖为待审，“评论区原词”未完整读到，不补写。 | A creator reports preparing and submitting a 12-GIF pack; this post does not establish approval. |
@@ -63,6 +63,7 @@
 | [Hemi：两头身角色跳舞、转身与循环](https://x.com/Hemi3AI/status/2118450538966823011) | 原帖给出先改为两头身、再跳舞转一圈并循环的短指令，指出模型对“转一圈”的理解偏离预期。角色属于原作者示例，不能据此取得其商业授权。 | Short character-motion instructions, with a reported mismatch in the interpretation of one full turn. |
 | [HeartlessCat：参考图与极短动作词](https://x.com/dokken92047824/status/2118293666456559762) | 作者附图后只指定男性弹木吉他，展示这种极简输入的结果；可对照参考图和动作描述的作用，不是完整专辑教程。 | A reference image and a minimal guitar-playing instruction, presented as a creator test. |
 | [seosoyoung：Flare 参考图 GIF 实测](https://x.com/seosoyoung_ai/status/2118142838198169750) | 作者报告一张Q版参考图、一次调用，约14秒返回6帧GIF，并反馈转得过快。耗时和帧数是该次记录；文中对当时文档的转述不能代替当前官方能力说明。 | A reported reference-image Flare test returning six frames, including feedback that the rotation was too fast. |
+| [vastxie：两套微信动态表情的四步流程](https://x.com/vastxie/status/2118265895613346263) | 锚点图、批量动作、深色背景去白边与配套图整理；原帖给出调用设置与避坑短提示。约4美元赠金额消耗是作者报告，未证明审核或盈利；[微信页导读](wechat.md#10--弎弎水锚点图两套动态表情与深色背景处理)。 | An anchor-image workflow and WeChat display fixes, with reported credit use rather than verified earnings. |
 
 ## 官方对照与相关资料库
 

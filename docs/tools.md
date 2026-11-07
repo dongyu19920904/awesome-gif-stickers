@@ -49,6 +49,14 @@ ChatGPT 订阅与 API 是不同入口。这里不推荐为复现某篇教程而�
 
 ## 其他资料库与 Skill 路线
 
+### GPTProto：把公开原词与仅展示案例分开
+
+[GPTProto / awesome-gpt-image-2.6-gif](https://github.com/GPTProto/awesome-gpt-image-2.6-gif/tree/5312eaa46714a6881e145026e4664e4fb4c89845) · [本库补核的24条原词入口](prompts.md#原帖公开的24条gif原词入口)
+
+固定版本 `5312eaa46714a6881e145026e4664e4fb4c89845` 有139个案例条目、101个唯一X原帖链接和52个提示词代码块，多种玩法不能重复折算为帖子。本库从中补读31个新原帖，区分原文确有提示、具体流程、仅展示及待核来源；没有把目录中的代码块直接当作原作者已公开的提示词。
+
+该库含API服务推广，README与许可文件对编辑内容的许可表述有不一致，第三方提示词和媒体未获通用转载授权。本库只提供原帖导航与独立导读，不复制其完整素材包或推荐购买服务；含sprite/grid的案例按实际证据标路线。
+
 另可参考已有的中英案例仓库 [zhuyansen/awesome-chatgpt-images-2.6](https://github.com/zhuyansen/awesome-chatgpt-images-2.6)及其[浏览页面](https://jasonzhu.ai/en/prompts/chatgpt-images-2-6)。它按原帖、作者、类别和提示词出处组织，未公开原词的作品留空。仓库未检测到通用开放许可，本库只提供链接，不复制其媒体和数据。
 
 两个常见仓库的源码可以帮助辨认路线，但不符合本页的原生生成入口条件：

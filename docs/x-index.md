@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [精选教程导读](x-tutorials.md) · [现成 Skills](skills.md)
 
-本页共 **102 个去重 status ID**，原帖正文或可定址的作者回复已读；标题为简要索引，完整原词与步骤请看原文。核查日期：2026-11-07。
+本页共 **137 个去重 status ID**，原帖正文或可定址的作者回复已读；标题为简要索引，完整原词与步骤请看原文。核查日期：2026-11-07。
 
 这是原文材料目录，不表示本库复现了作品、验证了上架或收入。图集/关键帧合成和模型原生GIF分别标明；未核清路线的标为“见原文”。
 
@@ -12,7 +12,9 @@
 | [@Superboy4949](https://x.com/Superboy4949/status/2118785150368743814) | 8帧0.96秒、16帧1.92秒；2至3秒循环需更多帧或放慢单帧，并让动作回起始姿势。 | 原生请求 |
 | [@1stLight_Ai](https://x.com/1stLight_Ai/status/2118784492227965350) | 作者观察2.6 GIF在较长生成中结构崩坏，未给具体时长阈值。 | 原生请求 |
 | [@felnartstories](https://x.com/felnartstories/status/2118758557537710141) | 让模型提议魔法穿越静止空间的GIF，结果手臂长矛晃动，头发斗篷也被动画化。 | 见原文 |
+| [@VaneAILab](https://x.com/VaneAILab/status/2118697413187657823) | 给Logo制作眨眼、粒子和紫色能量环GIF | 原生请求 |
 | [@cheerselflin](https://x.com/cheerselflin/status/2118671118345310606) | Evolink提示词与API资料入口 | 见原文 |
+| [@bywind_art](https://x.com/bywind_art/status/2118634073195253949) | 在ChatGPT网页项目中使用现成表情包Skill的步骤 | 见原文 |
 | [@bywind_art](https://x.com/bywind_art/status/2118633386445066345) | ray-sticker-shop使用报告与文档上传方式 | 合成 |
 | [@zhongying14](https://x.com/zhongying14/status/2118621472847532215) | 麻酱AI实验室：投稿与赞赏材料要点及前文导读 | 见原文 |
 | [@zhongying14](https://x.com/zhongying14/status/2118619825559793672) | 表情IP、红包封面和品牌曝光路径 | 见原文 |
@@ -53,21 +55,52 @@
 | [@wolfqing1](https://x.com/wolfqing1/status/2118294955236208942) | 橘猫需求又改了：角色母图与单个笑点 | 原生请求 |
 | [@dokken92047824](https://x.com/dokken92047824/status/2118293666456559762) | GPT Images 2.6 极简提示词生成 GIF 动画 | 原生请求 |
 | [@0xluffy_eth](https://x.com/0xluffy_eth/status/2118274913337552992) | 榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】 | 混合 |
+| [@vastxie](https://x.com/vastxie/status/2118265895613346263) | vastxie：角色锚点、两套微信GIF、深色背景白边与配套图流程 | 原生请求 |
 | [@spect3ral](https://x.com/spect3ral/status/2118265063790317712) | GPT Images 2.6 实测 Meta 广告素材：GIF、速度与产品一致性 | 原生请求 |
+| [@xedrik7](https://x.com/xedrik7/status/2118258491043483978) | 迷幻跳舞猫GIF短提示 | 原生请求 |
+| [@rem_rev](https://x.com/rem_rev/status/2118252486360498485) | 象征平成时代的社交GIF短提示 | 原生请求 |
+| [@ZHENGJUNTING92](https://x.com/ZHENGJUNTING92/status/2118252052556255364) | 烧杯漩涡与发光颜色的GIF场景提示 | 原生请求 |
+| [@eeseverlasting](https://x.com/eeseverlasting/status/2118248165396848968) | 上传猫图制作晚安喵GIF | 原生请求 |
+| [@Gimi_min](https://x.com/Gimi_min/status/2118243060064964703) | 同一IP的砸电脑与大肥鱼两张GIF | 原生请求 |
+| [@Mayz1169](https://x.com/Mayz1169/status/2118241781074862569) | Codex心跳舞动作的低中高档对照 | 见原文 |
 | [@ozansihay](https://x.com/ozansihay/status/2118238946412953985) | 家庭猫照片生成眨眼戴帽GIF | 原生请求 |
+| [@zhongying14](https://x.com/zhongying14/status/2118238496221511865) | 九张工作群猫咪表情包的策划需求 | 见原文 |
 | [@ai_artworkgen](https://x.com/ai_artworkgen/status/2118235687686140253) | 咖啡馆人物的局部运动循环提示词 | 原生请求 |
+| [@0xluffy_eth](https://x.com/0xluffy_eth/status/2118235551631610085) | 微信表情投稿的官方入口与规范导航 | 见原文 |
+| [@0xluffy_eth](https://x.com/0xluffy_eth/status/2118235549609955443) | 固定角色母图、批量换题、提交微信的三步建议 | 见原文 |
 | [@0xluffy_eth](https://x.com/0xluffy_eth/status/2118235547454083357) | 角色参考图→动态GIF的原始提示词 | 原生请求 |
 | [@omni1896837](https://x.com/omni1896837/status/2118233730146050398) | ChatGPT 内测 Images 2.6 GIF：自行车不动、噪点未修 | 原生请求 |
+| [@zhongying14](https://x.com/zhongying14/status/2118232213741277212) | 对话中调整GIF动作与速度，保存命名参考图 | 原生请求 |
 | [@ai_ai_ailover](https://x.com/ai_ai_ailover/status/2118232059571544139) | Higgsfield中的白龙GIF与图像创作记录 | 原生请求 |
+| [@shinshin86](https://x.com/shinshin86/status/2118225428976705908) | 角色参考图变Q版可爱动作GIF | 原生请求 |
+| [@daifuku_ailover](https://x.com/daifuku_ailover/status/2118224031518454108) | 一句话参考图转GIF及六格替代路线线索 | 见原文 |
+| [@munou_ac](https://x.com/munou_ac/status/2118220485150535796) | 参考角色图片转跳舞GIF | 原生请求 |
+| [@iidaatcnt](https://x.com/iidaatcnt/status/2118218668408746367) | 两行文字的聊天活动标题GIF | 原生请求 |
+| [@MrGafish](https://x.com/MrGafish/status/2118217749680025722) | 勤劳小蜜蜂签到GIF提示 | 原生请求 |
+| [@sousoccer6](https://x.com/sousoccer6/status/2118210705585537226) | 机器人泡咖啡GIF实测短提示 | 原生请求 |
+| [@o_adeeko](https://x.com/o_adeeko/status/2118203950306410729) | 文字生成与上传照片生成GIF的双入口教程 | 原生请求 |
+| [@okan_aitool](https://x.com/okan_aitool/status/2118201578406772887) | 单张角色图转挥手微笑GIF | 原生请求 |
+| [@CalosLaw](https://x.com/CalosLaw/status/2118199125707547102) | 白底线条小狗摇尾巴循环表情包 | 原生请求 |
 | [@Leviwoyun](https://x.com/Leviwoyun/status/2118197971112366538) | Levi：pixel-gif-sticker-pack发布与使用 | 合成 |
+| [@Ayu_AI_0912](https://x.com/Ayu_AI_0912/status/2118192179042750503) | 先生成视频再交给Images2.6的GIF流程 | 混合 |
+| [@dreamwieber](https://x.com/dreamwieber/status/2118191599872344467) | 黏土小猫在球池玩耍GIF | 原生请求 |
+| [@dreamwieber](https://x.com/dreamwieber/status/2118190877567037732) | 纽约雪景球GIF短提示 | 原生请求 |
 | [@karanwithai](https://x.com/karanwithai/status/2118190621886165099) | 橘猫打工的一天：12张动态表情提交微信待审核 | 原生请求 |
+| [@shitunote](https://x.com/shitunote/status/2118187063241777311) | 着火房间喝茶小狗的表情变化循环 | 原生请求 |
 | [@0xlangeai](https://x.com/0xlangeai/status/2118186890352607550) | GPT Images 2.6 生成健身推胸 GIF 动作细节 | 原生请求 |
 | [@crayon1267](https://x.com/crayon1267/status/2118186300339892472) | 以动作顺序图为参考生成投篮GIF | 见原文 |
+| [@nixus404](https://x.com/nixus404/status/2118180448840872167) | 意外自拍风格GIF提示 | 原生请求 |
+| [@TaikiTaiki04](https://x.com/TaikiTaiki04/status/2118177315176001988) | 角色扭动动作GIF短提示 | 原生请求 |
+| [@YaReYaRu30Life](https://x.com/YaReYaRu30Life/status/2118167174053597233) | 三视图转像素角色紫色闪电GIF | 原生请求 |
+| [@YaReYaRu30Life](https://x.com/YaReYaRu30Life/status/2118166505603153922) | 像素勇者挥剑特效GIF | 原生请求 |
+| [@thinkszyg](https://x.com/thinkszyg/status/2118166234495947044) | 纸船循环GIF短提示与角色一致性模板 | 见原文 |
 | [@Gorden_Sun](https://x.com/Gorden_Sun/status/2118166046175908016) | 作者教程与相关经验 | 原生请求 |
+| [@798145343h](https://x.com/798145343h/status/2118164732989608405) | 双角色跳舞GIF的直出与逐帧合成对照 | 原生请求 |
 | [@genel_ai](https://x.com/genel_ai/status/2118164510372688095) | GPT-Images 2.6 把照片转水彩画再做成 GIF | 原生请求 |
 | [@yur1freedom](https://x.com/yur1freedom/status/2118161546845299177) | 实测 Image 2.6 的 GIF 透明背景毛边控制 | 见原文 |
 | [@leppppp1](https://x.com/leppppp1/status/2118161453329068369) | 用 Images 2.6 把巴哥犬照片做成 3D 手办 GIF | 原生请求 |
 | [@oden_ai_ai](https://x.com/oden_ai_ai/status/2118160946598408392) | ChatGPT Images 2.6 支持 GIF 动画生成 | 原生请求 |
+| [@GeekCatX](https://x.com/GeekCatX/status/2118160560290480519) | 看图猜成语GIF的网页与Codex速度体验 | 原生请求 |
 | [@layton_gott](https://x.com/layton_gott/status/2118159385918681447) | 用 Images 2.6 生成动效再交给 Codex 重建 UI | 混合 |
 | [@tao100086](https://x.com/tao100086/status/2118158972385734993) | 用 Pro 赠送额度实测 Image 2.6 Sunburst 三档推理出 GIF | 见原文 |
 | [@ohchadol](https://x.com/ohchadol/status/2118158021394350320) | 韩语实测：Image 2.6 仅支持文本输入 | 见原文 |
@@ -75,11 +108,13 @@
 | [@karanwithai](https://x.com/karanwithai/status/2118156092865994837) | Images 2.6 直出 12 张橘猫动态表情包 | 原生请求 |
 | [@ama_huangama](https://x.com/ama_huangama/status/2118154620744708599) | 既有AI表情专辑的赞赏经验 | 见原文 |
 | [@luxsun_ai](https://x.com/luxsun_ai/status/2118154195023052827) | GPT Images 2.6 一句话直出 GIF 动画 | 原生请求 |
+| [@koe_ai414](https://x.com/koe_ai414/status/2118153765094351279) | 劈柴老人和转身眨眼：同帖两个短提示 | 原生请求 |
 | [@jammaru_lab](https://x.com/jammaru_lab/status/2118153279821787623) | ChatGPT Images 2.6 支持 GIF：角色图可跨对话 @ 调用 | 原生请求 |
 | [@akiyoshisan](https://x.com/akiyoshisan/status/2118153179141722442) | 单张角色图变 5 种风格动态 GIF 的实测 | 原生请求 |
 | [@ihayato](https://x.com/ihayato/status/2118151619212890291) | GPT Image 2.6 实测：圈选局部重绘与 GIF 动画 | 原生请求 |
 | [@renkon40](https://x.com/renkon40/status/2118149562229825569) | Images 2.6 上线：可生成循环 GIF | 原生请求 |
 | [@hisayuki](https://x.com/hisayuki/status/2118149338295943550) | 实测：提高思考量做复杂 GIF 动画 | 原生请求 |
+| [@MrGafish](https://x.com/MrGafish/status/2118147815008518564) | 小说片段转人物GIF | 原生请求 |
 | [@radineere10](https://x.com/radineere10/status/2118147670296678858) | 用 Images 2.6 做营销 GIF 的提示词模板 | 合成 |
 | [@gantrols](https://x.com/gantrols/status/2118147326351159730) | 实测 GPT Image 2.6 生成鲸鱼娘干饭动图 | 原生请求 |
 | [@gen_techcamp](https://x.com/gen_techcamp/status/2118146601378263236) | ChatGPT Images 2.6 发布：GIF 生成与参考图保存 | 合成 |

@@ -205,6 +205,39 @@ Turn the attached hand-drawn sketch into an animated character GIF: keep the ske
 | 40 | Love-burst skill animation | 爱心爆发技能动画 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L529) |
 | 41 | Junkyard robot walk cycle | 废品场机器人行走 | [英文原词](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/2672b8fe04e75275de70a8d5d2992da6271ce8f5/data/prompts.json#L541) |
 
+## 原帖公开的24条GIF原词入口
+
+线索来自 [GPTProto 的 GIF 案例目录](https://github.com/GPTProto/awesome-gpt-image-2.6-gif/tree/5312eaa46714a6881e145026e4664e4fb4c89845)。以下24条均已核对作者原帖正文，确有实际提示词；保留原语言，完整原词与参考素材请到原帖取用。表中“见原文”表示尚未核清生成路线，不把网格/精灵图措辞自动判为原生或外部拼帧。
+
+| 原帖题材与作者 | 原文语言 | 路线 |
+|---|---|---|
+| [小说片段转人物GIF · @MrGafish](https://x.com/MrGafish/status/2118147815008518564) | 中文 | 原生请求 |
+| [劈柴老人和转身眨眼：同帖两个短提示 · @koe_ai414](https://x.com/koe_ai414/status/2118153765094351279) | 日文 | 原生请求 |
+| [纸船循环GIF短提示与角色一致性模板 · @thinkszyg](https://x.com/thinkszyg/status/2118166234495947044) | 中文 | 见原文 |
+| [像素勇者挥剑特效GIF · @YaReYaRu30Life](https://x.com/YaReYaRu30Life/status/2118166505603153922) | 日文 | 原生请求 |
+| [三视图转像素角色紫色闪电GIF · @YaReYaRu30Life](https://x.com/YaReYaRu30Life/status/2118167174053597233) | 日文 | 原生请求 |
+| [角色扭动动作GIF短提示 · @TaikiTaiki04](https://x.com/TaikiTaiki04/status/2118177315176001988) | 日文 | 原生请求 |
+| [意外自拍风格GIF提示 · @nixus404](https://x.com/nixus404/status/2118180448840872167) | 英文 | 原生请求 |
+| [着火房间喝茶小狗的表情变化循环 · @shitunote](https://x.com/shitunote/status/2118187063241777311) | 中文 | 原生请求 |
+| [纽约雪景球GIF短提示 · @dreamwieber](https://x.com/dreamwieber/status/2118190877567037732) | 英文 | 原生请求 |
+| [黏土小猫在球池玩耍GIF · @dreamwieber](https://x.com/dreamwieber/status/2118191599872344467) | 英文 | 原生请求 |
+| [白底线条小狗摇尾巴循环表情包 · @CalosLaw](https://x.com/CalosLaw/status/2118199125707547102) | 中文 | 原生请求 |
+| [单张角色图转挥手微笑GIF · @okan_aitool](https://x.com/okan_aitool/status/2118201578406772887) | 日文 | 原生请求 |
+| [文字生成与上传照片生成GIF的双入口教程 · @o_adeeko](https://x.com/o_adeeko/status/2118203950306410729) | 英文 | 原生请求 |
+| [机器人泡咖啡GIF实测短提示 · @sousoccer6](https://x.com/sousoccer6/status/2118210705585537226) | 日文 | 原生请求 |
+| [勤劳小蜜蜂签到GIF提示 · @MrGafish](https://x.com/MrGafish/status/2118217749680025722) | 中文 | 原生请求 |
+| [两行文字的聊天活动标题GIF · @iidaatcnt](https://x.com/iidaatcnt/status/2118218668408746367) | 日文 | 原生请求 |
+| [参考角色图片转跳舞GIF · @munou_ac](https://x.com/munou_ac/status/2118220485150535796) | 日文 | 原生请求 |
+| [一句话参考图转GIF及六格替代路线线索 · @daifuku_ailover](https://x.com/daifuku_ailover/status/2118224031518454108) | 日文 | 见原文 |
+| [角色参考图变Q版可爱动作GIF · @shinshin86](https://x.com/shinshin86/status/2118225428976705908) | 日文 | 原生请求 |
+| [同一IP的砸电脑与大肥鱼两张GIF · @Gimi_min](https://x.com/Gimi_min/status/2118243060064964703) | 中文 | 原生请求 |
+| [上传猫图制作晚安喵GIF · @eeseverlasting](https://x.com/eeseverlasting/status/2118248165396848968) | 日文 | 原生请求 |
+| [烧杯漩涡与发光颜色的GIF场景提示 · @ZHENGJUNTING92](https://x.com/ZHENGJUNTING92/status/2118252052556255364) | 中文 | 原生请求 |
+| [象征平成时代的社交GIF短提示 · @rem_rev](https://x.com/rem_rev/status/2118252486360498485) | 日文 | 原生请求 |
+| [迷幻跳舞猫GIF短提示 · @xedrik7](https://x.com/xedrik7/status/2118258491043483978) | 英文 | 原生请求 |
+
+这里只整理署名导读和原帖跳转，不复制未明确授权转载的完整原词或媒体。
+
 ## 从提示词继续到微信
 
 先在作者原页看输入与完整循环，再取用原词。用自己的照片、原创角色或有授权素材替换参考图时，应保留相应权利依据。开放许可模板允许按许可转载，不同时授权任何第三方角色、肖像或品牌。

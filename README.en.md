@@ -20,7 +20,7 @@ A focused collection of existing prompts, creator examples and tutorials:
 
 ## Start reading
 
-The [prompt collection](docs/prompts.md) includes five bilingual licensed templates and 41 linked GIF prompts from a separately attributed open-source library, grouped into chat stickers, loops, fast cuts and pixel/UI examples. Source prompts, creator demonstrations and editorial notes remain distinct.
+The [prompt collection](docs/prompts.md) includes five bilingual licensed templates, 41 linked GIF prompts from an attributed library, and 24 prompt links verified against their creators' original posts in Chinese, Japanese and English. Source prompts, creator demonstrations and editorial notes remain distinct.
 
 1. [OpenAI: Images in ChatGPT](https://help.openai.com/en/articles/11084440-images-in-chatgpt) — see “Create and edit a GIF”.
 2. [Greta Tsai's November 5 tutorial](https://gretatsai.com/chatgpt-images-2-6-gif/) — original prompts, photo examples and revisions.
